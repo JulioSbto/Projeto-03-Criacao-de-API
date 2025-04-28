@@ -1,0 +1,26 @@
+.cartoes {
+    width: 300px;
+    box-shadow: 1px 1px 10px gray;
+    padding: 30px;
+    transition: all 0.5s;
+}
+
+.precos {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(186, 7, 7);
+}
+
+#caixa_conteudo {
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 40px;
+    justify-content: center;
+}
+
+.cartoes:hover {
+    background-color: black;
+    color: antiquewhite;
+    scale: 1.05;
+    cursor: pointer;
+}
